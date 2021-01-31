@@ -724,9 +724,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newZone: Nivel 2
-  ZoneEntered: 
-  sonido: {fileID: 0}
-  wait: 0
+  ZoneEntered: Lvl2Start
+  sonido: {fileID: 873479843}
+  wait: 1.5
   loaded: 0
   triggered: 0
 --- !u!61 &583029549
@@ -972,8 +972,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newZone: Nivel 4
   ZoneEntered: StartLvl4
-  sonido: {fileID: 0}
-  wait: 0
+  sonido: {fileID: 873479843}
+  wait: 1.5
   loaded: 0
   triggered: 0
 --- !u!61 &917705788
@@ -1048,8 +1048,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newZone: Nivel 3
   ZoneEntered: StartLvl3
-  sonido: {fileID: 0}
-  wait: 0
+  sonido: {fileID: 873479843}
+  wait: 1.5
   loaded: 0
   triggered: 0
 --- !u!61 &1003612861
@@ -14333,7 +14333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977063314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.373182, y: 7.8950105, z: -15.0703125}
+  m_LocalPosition: {x: 29.33, y: 12.46, z: -15.0703125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

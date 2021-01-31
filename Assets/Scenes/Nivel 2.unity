@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sonido: {fileID: 754493830}
-  fadeintime: 1.5
+  fadeintime: 1.7
 --- !u!1 &860389090
 GameObject:
   m_ObjectHideFlags: 0
