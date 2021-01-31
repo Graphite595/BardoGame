@@ -5,11 +5,13 @@ using UnityEngine;
 public class DeathRestart : MonoBehaviour
 {
     public GameObject CheckPoint;
-    public Rigidbody2D Cuerpo;
+    private Rigidbody2D Cuerpo;
     public AudioSource murio;
+    private PlayerController playersp;
+   
     void Start()
     {
-        
+        playersp = FindObjectOfType<PlayerController>();
     }
     void Update()
     {
@@ -21,7 +23,8 @@ public class DeathRestart : MonoBehaviour
         {
             murio.Play();
             collision.gameObject.transform.position = CheckPoint.transform.position;
-            Cuerpo.velocity = new Vector3(0f, 0f, 0f);
+            Cuerpo=playersp.GetComponent<Rigidbody2D>();
+            Cuerpo.velocity =new Vector3 (0f, 0f, 0f);
         }
     }
 }

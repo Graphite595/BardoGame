@@ -241,6 +241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newZone: Nivel 4
   ZoneEntered: StartLvl4
+  sonido: {fileID: 0}
+  wait: 0
+  loaded: 0
+  triggered: 0
 --- !u!61 &820427532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1601,6 +1605,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flute
       objectReference: {fileID: 0}
+    - target: {fileID: 3335609864104524395, guid: 30f684ff76e690b44b0fe1bafcf06496,
+        type: 3}
+      propertyPath: wait
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335609864104524395, guid: 30f684ff76e690b44b0fe1bafcf06496,
+        type: 3}
+      propertyPath: loaded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335609864104524395, guid: 30f684ff76e690b44b0fe1bafcf06496,
+        type: 3}
+      propertyPath: sonido
+      value: 
+      objectReference: {fileID: 1102784427}
     - target: {fileID: 7610446308522118500, guid: 30f684ff76e690b44b0fe1bafcf06496,
         type: 3}
       propertyPath: m_RootOrder

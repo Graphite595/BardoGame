@@ -284,22 +284,6 @@ CompositeCollider2D:
         Y: 59999900
       - X: 400000041
         Y: 59999900
-    - - X: 360000100
-        Y: 49999959
-      - X: 360000100
-        Y: 60000041
-      - X: 360000041
-        Y: 60000100
-      - X: 320000041
-        Y: 60000100
-      - X: 320000100
-        Y: 60000041
-      - X: 320000100
-        Y: 49999959
-      - X: 320000041
-        Y: 49999900
-      - X: 360000041
-        Y: 49999900
     - - X: 460000100
         Y: 39999959
       - X: 460000100
@@ -414,10 +398,6 @@ CompositeCollider2D:
       - {x: 39.999973, y: 7.0000095}
       - {x: 36.999992, y: 6.9999743}
       - {x: 37.000027, y: 5.99999}
-    - - {x: 35.999973, y: 4.99999}
-      - {x: 35.999973, y: 6.00001}
-      - {x: 32.00001, y: 5.9999747}
-      - {x: 32.00003, y: 4.99999}
     - - {x: 45.999973, y: 3.99999}
       - {x: 45.999973, y: 5.00001}
       - {x: 41.999992, y: 4.9999747}
@@ -816,42 +796,6 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 32, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 33, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 34, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 35, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: 37, y: 6, z: 0}
     second:
       serializedVersion: 2
@@ -971,13 +915,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data: {fileID: 11400000, guid: d6f348fcc415f09449722f37c91aaab9, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data: {fileID: 21300090, guid: 962e67ff7370f0c4492dca70b64f89e9, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data:
       e00: 1
       e01: 0
@@ -996,7 +940,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1111,6 +1055,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newZone: Nivel 3
   ZoneEntered: StartLvl3
+  sonido: {fileID: 754493830}
+  wait: 1.5
+  loaded: 0
+  triggered: 0
 --- !u!61 &684118452
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1147,6 +1095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754493831}
   - component: {fileID: 754493830}
+  - component: {fileID: 754493832}
   m_Layer: 0
   m_Name: Harpsound
   m_TagString: Untagged
@@ -1166,7 +1115,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5202500c83bba3444b718d23d3a205db, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1264,6 +1213,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754493832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754493829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1eb2f59cee5f10498e5244c67c69268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 754493830}
+  fadeintime: 1.5
 --- !u!1 &860389090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,6 +1303,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newZone: Nivel 3
   ZoneEntered: StartLvl3
+  sonido: {fileID: 0}
+  wait: 0
+  loaded: 0
+  triggered: 0
 --- !u!61 &1132580591
 BoxCollider2D:
   m_ObjectHideFlags: 0
