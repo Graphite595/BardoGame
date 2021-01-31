@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: e943e20d10e272f45a9fbe1523830e2f
+guid: 4db4369aefd5b094babc157fafe85746
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1098179606456428539
-    second: weapons_0
+      213: -7804441461935338841
+    second: Monster1-Sheet_0
   - first:
-      213: -5557420877203330147
-    second: weapons_1
+      213: 1189441295707716790
+    second: Monster1-Sheet_1
   - first:
-      213: -7888296697152109952
-    second: weapons_2
+      213: -8671029267663102449
+    second: Monster1-Sheet_2
   - first:
-      213: 698664279297640794
-    second: weapons_3
+      213: -592306755732303457
+    second: Monster1-Sheet_3
   - first:
-      213: 2912464402848211330
-    second: weapons_4
+      213: -4295014377569978008
+    second: Monster1-Sheet_4
   - first:
-      213: 2920547695714349933
-    second: weapons_5
+      213: -9202558909442305213
+    second: Monster1-Sheet_5
   - first:
-      213: 8101326686158321518
-    second: weapons_6
+      213: 7139404789078251319
+    second: Monster1-Sheet_6
   - first:
-      213: 853742892412031643
-    second: weapons_7
-  - first:
-      213: -7706190253212291482
-    second: weapons_8
-  - first:
-      213: -8508422110644630109
-    second: weapons_9
-  - first:
-      213: -4855083040135353222
-    second: weapons_10
-  - first:
-      213: 3975059572695951870
-    second: weapons_11
+      213: -8041372056764807239
+    second: Monster1-Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +85,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 32
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,22 +97,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 32
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 32
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,223 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapons_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 21
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf7e96e98848d3f00800000000000000
-      internalID: 1098179606456428539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_1
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 21
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9ba4fa182310e2b0800000000000000
-      internalID: -5557420877203330147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_2
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 21
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0828c5ba2f3278290800000000000000
-      internalID: -7888296697152109952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_3
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 25
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a594ac8d57722b900800000000000000
-      internalID: 698664279297640794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_4
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 25
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 281ecb881f62b6820800000000000000
-      internalID: 2912464402848211330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 13
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d63b3a0d7aed78820800000000000000
-      internalID: 2920547695714349933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_6
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 13
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e67fbd9c2b1bd6070800000000000000
-      internalID: 8101326686158321518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 13
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b92dbb723aa19db00800000000000000
-      internalID: 853742892412031643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_8
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 17
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66e24b93bcc1e0590800000000000000
-      internalID: -7706190253212291482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ad82ff7b230ce980800000000000000
-      internalID: -8508422110644630109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapons_10
+      name: Monster1-Sheet_0
       rect:
         serializedVersion: 2
         x: 8
-        y: 1
-        width: 6
-        height: 10
+        y: 2
+        width: 16
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c65b5c2b74f9cb0800000000000000
-      internalID: -4855083040135353222
+      spriteID: 7aa830f07dd01b390800000000000000
+      internalID: -7804441461935338841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapons_11
+      name: Monster1-Sheet_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1
-        width: 6
-        height: 10
+        x: 40
+        y: 2
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,8 +146,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9ee8fde9f3a2730800000000000000
-      internalID: 3975059572695951870
+      spriteID: 6bcb6d77e8eb18010800000000000000
+      internalID: 1189441295707716790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0edce772d05aa780800000000000000
+      internalID: -8671029267663102449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f911382d424b7c7f0800000000000000
+      internalID: -592306755732303457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869feb7fd2b0564c0800000000000000
+      internalID: -4295014377569978008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d51add61f94080800000000000000
+      internalID: -9202558909442305213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7375bb854d2441360800000000000000
+      internalID: 7139404789078251319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b708c928be476090800000000000000
+      internalID: -8041372056764807239
       vertices: []
       indices: 
       edges: []
